@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11826" started-at="2020-05-24T00:08:55Z" finished-at="2020-05-24T00:09:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11826" started-at="2020-05-24T00:08:55Z" finished-at="2020-05-24T00:09:07Z">
+      <class name="Tests.TestCases">
+        <test-method status="PASS" signature="OpenURL()[pri:0, instance:Tests.TestCases@ae45eb6]" name="OpenURL" is-config="true" duration-ms="6269" started-at="2020-05-24T00:08:49Z" finished-at="2020-05-24T00:08:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenURL -->
+        <test-method status="PASS" signature="SeleniumSearch()[pri:1, instance:Tests.TestCases@ae45eb6]" name="SeleniumSearch" duration-ms="2142" started-at="2020-05-24T00:08:55Z" finished-at="2020-05-24T00:08:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeleniumSearch -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.TestCases@ae45eb6]" name="screenshotOnFailure" is-config="true" duration-ms="2" started-at="2020-05-24T00:08:57Z" finished-at="2020-05-24T00:08:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SeleniumSearch status=SUCCESS method=TestCases.SeleniumSearch()[pri:1, instance:Tests.TestCases@ae45eb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="resultCheck()[pri:2, instance:Tests.TestCases@ae45eb6]" name="resultCheck" duration-ms="49" started-at="2020-05-24T00:08:57Z" depends-on-methods="Tests.TestCases.SeleniumSearch" finished-at="2020-05-24T00:08:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultCheck -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.TestCases@ae45eb6]" name="screenshotOnFailure" is-config="true" duration-ms="0" started-at="2020-05-24T00:08:57Z" finished-at="2020-05-24T00:08:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=resultCheck status=SUCCESS method=TestCases.resultCheck()[pri:2, instance:Tests.TestCases@ae45eb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="NavigateToHero()[pri:3, instance:Tests.TestCases@ae45eb6]" name="NavigateToHero" duration-ms="2550" started-at="2020-05-24T00:08:57Z" finished-at="2020-05-24T00:09:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToHero -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.TestCases@ae45eb6]" name="screenshotOnFailure" is-config="true" duration-ms="3" started-at="2020-05-24T00:09:00Z" finished-at="2020-05-24T00:09:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NavigateToHero status=SUCCESS method=TestCases.NavigateToHero()[pri:3, instance:Tests.TestCases@ae45eb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="TestFileUpload()[pri:4, instance:Tests.TestCases@ae45eb6]" name="TestFileUpload" duration-ms="609" started-at="2020-05-24T00:09:00Z" finished-at="2020-05-24T00:09:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFileUpload -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.TestCases@ae45eb6]" name="screenshotOnFailure" is-config="true" duration-ms="0" started-at="2020-05-24T00:09:00Z" finished-at="2020-05-24T00:09:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestFileUpload status=SUCCESS method=TestCases.TestFileUpload()[pri:4, instance:Tests.TestCases@ae45eb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="NavigateBack()[pri:5, instance:Tests.TestCases@ae45eb6]" name="NavigateBack" duration-ms="367" started-at="2020-05-24T00:09:00Z" finished-at="2020-05-24T00:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateBack -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.TestCases@ae45eb6]" name="screenshotOnFailure" is-config="true" duration-ms="1" started-at="2020-05-24T00:09:01Z" finished-at="2020-05-24T00:09:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NavigateBack status=SUCCESS method=TestCases.NavigateBack()[pri:5, instance:Tests.TestCases@ae45eb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="TestDynamicLoading()[pri:6, instance:Tests.TestCases@ae45eb6]" name="TestDynamicLoading" duration-ms="6052" started-at="2020-05-24T00:09:01Z" finished-at="2020-05-24T00:09:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestDynamicLoading -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:Tests.TestCases@ae45eb6]" name="screenshotOnFailure" is-config="true" duration-ms="0" started-at="2020-05-24T00:09:07Z" finished-at="2020-05-24T00:09:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestDynamicLoading status=SUCCESS method=TestCases.TestDynamicLoading()[pri:6, instance:Tests.TestCases@ae45eb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="CloseURL()[pri:0, instance:Tests.TestCases@ae45eb6]" name="CloseURL" is-config="true" duration-ms="667" started-at="2020-05-24T00:09:07Z" finished-at="2020-05-24T00:09:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseURL -->
+      </class> <!-- Tests.TestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
